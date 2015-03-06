@@ -18,8 +18,8 @@ syn match hermesStringEmbeddedQuote /\\'/ contained
 
 hi link hermesString String
 hi link hermesStringEmbeddedQuote String
-hi link hermesTerminal Include
-hi link hermesNonTerminal Delimiter
+hi link hermesTerminal Identifier
+hi link hermesNonTerminal Typedef
 hi link hermesStackPush StorageClass
 
 syn match hermesComment "\v#.*$"
